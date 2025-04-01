@@ -1,0 +1,9 @@
+program test11;
+var x,y:int;
+begin 
+x:=3;
+readln(y);
+if x<y then x:=x+y+5 endif;
+writeln(x);
+writeln(y);
+end.
